@@ -1,0 +1,31 @@
+{
+  "brand": "Brand Name",
+  "tel": "+1(555)555-1234",
+  "street": "123 Any Street",
+  "locale": "Anytown",
+  "region": "MN",
+  "postal_code": "23456",
+  "country": "US",
+  "url": "https://brandname.tld",
+  "email": "support@brandname.tld",
+  "logo": null,
+  "social": {
+    "facebook": null,
+    "twitter": null,
+    "linkedin": null,
+    "instagram": null,
+    "youtube": null,
+    "vimeo": null,
+    "snapchat": null,
+    "wordpress": null,
+    "google": null,
+    "bing": null
+    },
+  "hours": [
+    {
+      "day": null,
+      "open": null,
+      "close": null
+    }
+  ]
+}

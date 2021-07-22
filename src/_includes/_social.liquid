@@ -1,0 +1,8 @@
+
+<ul class="nav">
+    {% for link in config.social %}
+        {% if link[1] %}
+            <li class="nav-item"><a href="{{ link[1] |  url}}" class="nav-link"><i class="fab fa-{{ link[0] }}"></i> {{ link[0] }}</a></li>
+        {% endif %}
+    {% endfor %}
+</ul>

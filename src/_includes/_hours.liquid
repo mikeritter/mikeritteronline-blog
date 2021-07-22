@@ -1,0 +1,10 @@
+<ul class="list-unstyled">
+    {% for block in config.hours %}
+        {% if block.day %}
+        <li>
+            <span class="fw-bold">{{ block.day }}</span>
+            <br>{{ block.open }} to {{ block.close }}
+        </li>
+        {% endif %}
+    {% endfor %}
+</ul>

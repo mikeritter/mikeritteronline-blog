@@ -1,0 +1,10 @@
+<address>
+    <dt>{{ config.brand }}</dt>
+    {% if config.logo %}
+        <dd><img src="{{ config.logo }}" alt="" width="120" height="120"></dd>
+    {% endif %}
+    <dd><span>{{ config.street }}</span>
+        <br><span>{{ config.locale }}</span>, <span>{{ config.region }}</span> <span>{{ config.postal_code }}</span> <span>{{ config.country }}</span></dd>
+    <dd>{{ config.tel }}</dd>
+    <dd>{{ config.email }}</dd>
+</address>

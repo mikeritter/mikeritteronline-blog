@@ -1,0 +1,6 @@
+
+<ul class="nav flex-column">
+    {% for link in collections.nav %}
+        <li class="nav-item"><a href="{{ link.url |  url }}" class="nav-link" title="{{ link.headline }}">{{ link.data.label }}</a></li>
+    {% endfor %}
+</ul>

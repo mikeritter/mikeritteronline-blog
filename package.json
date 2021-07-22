@@ -1,0 +1,24 @@
+{
+  "name": "small-business-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeritter/mikeritteronline-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikeritter/mikeritteronline-blog/issues"
+  },
+  "homepage": "https://github.com/mikeritter/mikeritteronline-blog#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "bootstrap": "^5.0.2"
+  }
+}
